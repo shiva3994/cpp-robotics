@@ -4,11 +4,11 @@
 // double price = 9.99;   // decimals
 // char grade = 'A';      // single character
 // bool isReady = true;   // true/false
-// string name = "Shiva"; // text (needs #include <string>) 
+// string name = "Shiva"; // text (needs #include <string>)
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
-//Declare an int variable called battery_level and set it to 85 - Print "Battery level: 85%" using std::cout
+// Declare an int variable called battery_level and set it to 85 - Print "Battery level: 85%" using std::cout
 
 // #include <iostream>
 // int main() {
@@ -25,16 +25,17 @@
 
 #include <iostream>
 
-int main() {
+int main()
+{
     double celcius = 25.0;
-    double fahrenheit = (celcius * 9/5) + 32;
+    double fahrenheit = (celcius * 9 / 5) + 32;
     std::cout << celcius << " Celcius is " << fahrenheit << " Fahrenheit " << std::endl;
     return 0;
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
-/* 
+/*
 
 #include <iostream>  // Imports tools needed to print text on the screen.
 int main() {         // Starts the main container where the program begins running.
